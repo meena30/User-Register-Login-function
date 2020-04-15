@@ -111,23 +111,4 @@ Template Name: user login
         </div>
     <!-- signin page ends here -->
 
-
-
-<!-- <form id="user_login_form" action="" method="post" enctype="multipart/form-data"> 
-
-<div class="space"><input type="text" name="useremail" id="useremail" placeholder="Email *"  value="<?php echo $_POST['useremail']; ?>" /></div> 
-<div class="space"><input type="password" name="userpass" id="userpass" placeholder="Password *"  value=""> </div> 
-
-<label> 
-<input class="myremember" name="rememberme" type="checkbox" value="forever"><span class="">Remember me</span></label>
- 
-<input type="submit" id="submit" name="submit" value="LOGIN"> 
-<?php $signup_url = get_home_url().'/user-registration/';
-$frgt_url = get_home_url().'/forget-password/';
-?>
-<div class="frgt_pass"><a href="<?php echo $frgt_url ?>">Forget Password</a></div>
-<div class="sign_up">Don't have an account?<a href="<?php echo $signup_url ?>">SIGNUP</a></div>
-</form>
- -->
-
 <?php get_footer(); ?>
